@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans:wght@300;400;700&family=Poppins:ital,wght@0,300;0,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mobile">
+        <div class="view"></div>
+        <div class="but">
+            <div class="line one">
+                <button class="res">AC</button>
+                <button class="trans"><sup>+</sup>/<sub>-</sub></button>
+                <button class="rate">%</button>
+                <button class="prac" onclick="prac('÷')">÷</button>
+            </div>
+            <div class="line two">
+                <button class="num" onclick="vieVale('7')">7</button>
+                <button class="num" onclick="vieVale('8')">8</button>
+                <button class="num" onclick="vieVale('9')">9</button>
+                <button class="prac" onclick="prac('×', 1)">×</button>
+            </div>
+            <div class="line three">
+                <button class="num" onclick="vieVale('4')">4</button>
+                <button class="num" onclick="vieVale('5')">5</button>
+                <button class="num" onclick="vieVale('6')">6</button>
+                <button class="prac" onclick="prac('-', 2)">-</button>
+            </div>
+            <div class="line for">
+                <button class="num" onclick="vieVale('1')">1</button>
+                <button class="num" onclick="vieVale('2')">2</button>
+                <button class="num" onclick="vieVale('3')">3</button>
+                <button class="prac" onclick="prac('+', 3)">+</button>
+            </div>
+            <div class="line fiuv">
+                <button class="num zero" onclick="vieVale('0')">0</button>
+                <button class="comm">.</button>
+                <button class="equa" onclick="equa()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

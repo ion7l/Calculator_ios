@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+body {
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: black;
+}
+
+.mobile {
+    background-color: black;
+}
+.mobile .view {
+    height: 22px;
+    margin: 0 auto 50px 10px;
+    color: white;
+    font-size: 40px;
+}
+
+.mobile .but .line {
+    margin-bottom: 8px;
+}
+
+.but button {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    border: 0;
+    font-size: 28px;
+}
+
+.but button:not(button:last-child){
+    margin-right: 8px;
+}
+
+.but .res, .trans, .rate {
+    background-color: #A0A0A0;
+    color: black;
+}
+
+.but .prac, .equa {
+    background-color: #F69906;
+    color: white;
+}
+
+.but .num, .comm {
+    background-color: #313131;
+    color: white;
+}
+
+.but button.zero {
+    width: 48%;
+    border-radius: 45px;
+}
